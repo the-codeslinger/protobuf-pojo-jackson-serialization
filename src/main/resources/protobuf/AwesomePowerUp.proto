@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.thecodeslinger.ppjs.proto;
+
+/**
+  Sample Protobuf message that will be included in a POJO as a private field.
+ */
+message AwesomePowerUp {
+  string name = 1;
+  int32 level = 2;
+}
